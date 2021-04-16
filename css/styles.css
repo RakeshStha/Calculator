@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    
+    padding: 20px;
+    text-align: center;
+    height: 470px;
+    width: 250px;
+    background-color: aquamarine;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+}
+
+.answer {
+    height: 70px;
+}
+
+.text{
+    font-weight: 700;
+}
+
+.ans  {
+    font-weight: 700;
+    color: green;
+}
+
+input{
+    border: none;
+}
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<script src="js/script.js"></script>
+<body>
+    <div class="container">
+            <h2>Simple Calculator</h2>
+                <div class="answer">
+                    <input type="text" id="text" class="text"/>
+                    <input type="text" id="ans" class="ans" />
+                </div>
+                
+      
+            <table class="keys">
+                <tr>
+                    <td><button value="(" onclick="getvalue('(')">(</button></td>
+                    <td><button value=")" onclick="getvalue(')')">)</button></td>
+                    <td><button value="C" onclick="clears()">C</button></td>
+                    <td><button value="%" onclick="getvalue('%')">%</button></td>
+                </tr>
+                <tr>
+                    <td><button value="7" onclick="getvalue('7')">7</button></td>
+                    <td><button value="8" onclick="getvalue('8')">8</button></td>
+                    <td><button value="9" onclick="getvalue('9')">9</button></td>
+                    <td><button value="*" onclick="getvalue('*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button value="4" onclick="getvalue('4')">4</button></td>
+                    <td><button value="5" onclick="getvalue('5')">5</button></td>
+                    <td><button value="6" onclick="getvalue('6')">6</button></td>
+                    <td><button value="-" onclick="getvalue('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button value="1" onclick="getvalue('1')">1</button></td>
+                    <td><button value="2" onclick="getvalue('2')">2</button></td>
+                    <td><button value="3" onclick="getvalue('3')">3</button></td>
+                    <td><button value="+" onclick="getvalue('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button value="0" onclick="getvalue('1')">0</button></td>
+                    <td><button value="." onclick="getvalue('.')">.</button></td>
+                    <td><button value="/" onclick="getvalue('/')">/</button></td>
+                    <td><button value="=" onclick="solve()">=</button></td>
+                </tr>
+            </table>
+        
+
+    </div>
+</body>
+</html>
