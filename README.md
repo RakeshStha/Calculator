@@ -21,6 +21,6 @@ Html, Css, Js with error message
 
 ![design 5](https://user-images.githubusercontent.com/56125560/115059222-f476a080-9f05-11eb-8c82-7decf71f320c.JPG)
 
-# Thank you for downloading...
+# Thank you for watching...
 
 
